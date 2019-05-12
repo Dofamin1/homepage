@@ -4,3 +4,27 @@
 .contacts li a.instagram:hover {
     color: rgb(235, 13, 13);
   }
+.roundedCorners {
+  border-radius: 12px !important;
+}
+
+/* text styles*/
+.largeText {
+  font-size: large;
+}
+.largerText{
+  font-size: x-large;
+}
+.italicText{
+font-style: italic
+}
+.boldText {
+font-weight: 800;
+}
+  /*position styles*/
+.paddingLeft-3 {
+    padding-left: 30px !important;
+  }
+.marginTop-1 {
+  margin-top: 10px; 
+}
