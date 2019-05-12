@@ -5,7 +5,19 @@
     color: rgb(235, 13, 13);
   }
 
-
+/* text styles*/
+.largeText {
+  font-size: large;
+}
+.largerText{
+  font-size: x-large;
+}
+.italicText{
+font-style: italic
+}
+.boldText {
+font-weight: 800;
+}
   /*position styles*/
 .paddingLeft-3 {
     padding-left: 30px;
