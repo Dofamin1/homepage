@@ -507,7 +507,7 @@
   }
   .avatar {
     position: relative;
-    max-width: 15rem;
+    max-width: 20rem;
     display: block;
     flex: 1 0 auto;
   }
