@@ -20,5 +20,8 @@ font-weight: 800;
 }
   /*position styles*/
 .paddingLeft-3 {
-    padding-left: 30px;
+    padding-left: 30px !important;
   }
+.marginTop-1 {
+  margin-top: 10px; 
+}
