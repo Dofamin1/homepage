@@ -4,3 +4,9 @@
 .contacts li a.instagram:hover {
     color: rgb(235, 13, 13);
   }
+
+
+  /*position styles*/
+.paddingLeft-3 {
+    padding-left: 30px;
+  }
