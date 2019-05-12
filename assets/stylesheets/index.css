@@ -4,6 +4,9 @@
 .contacts li a.instagram:hover {
     color: rgb(235, 13, 13);
   }
+.roundedCorners {
+  border-radius: 12px !important;
+}
 
 /* text styles*/
 .largeText {
