@@ -1,3 +1,6 @@
 .contacts li a.twitter:hover {
     color: rgb(54, 180, 197);
   }
+.contacts li a.instagram:hover {
+    color: rgb(235, 13, 13);
+  }
