@@ -44,3 +44,15 @@ const dateOfStartPresidency = getDate("2017-01-20");
 const currentDay = getDate();
 
 
+const addTimeOfPresidencyToMarkup = () => {
+    const {yearDif, monthDif, dayDif} = getDateDifference(dateOfStartPresidency, currentDay)
+    document.getElementById("timeOfPresidency").innerHTML = `
+        <span>${yearDif} <strong>Years</strong>, ${monthDif} <strong>Month</strong>, ${dayDif} <strong>Days</strong> </span>🎉
+    `;
+}
+
+addTimeOfPresidencyToMarkup();
+
+
+
+
