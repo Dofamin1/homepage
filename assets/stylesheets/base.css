@@ -706,7 +706,6 @@
   }
   li.details > input {
     float: left;
-    margin-left: -1.5em;
     width: 1.5em;
     display: inline-flex;
     align-items: center;
