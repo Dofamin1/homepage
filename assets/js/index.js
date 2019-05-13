@@ -16,7 +16,6 @@ const getDateDifference = ( timeBefore, timeAfter ) => {;
         yearDif = 0;
         monthDif = (12 - timeBefore.month) + timeAfter.month
     }
-
     if(dayDif < 0) {
         monthDif -= 1;
         dayDif = (getDayCountOfMonth(timeBefore.year, timeBefore.month) - timeBefore.day) + timeAfter.day
@@ -40,11 +39,10 @@ const checkDateParams = (yearDif, monthDif, dayDif) => {
     else if(yearDif == 0 && monthDif == 0 && dayDif == 0) throw new Error("dates are the same");
     
 }
-const dateOfStartPresidency = getDate("2017-01-20");
-const currentDay = getDate();
-
 
 const addTimeOfPresidencyToMarkup = () => {
+    const dateOfStartPresidency = getDate("2017-01-20");
+    const currentDay = getDate();
     const {yearDif, monthDif, dayDif} = getDateDifference(dateOfStartPresidency, currentDay)
     document.getElementById("timeOfPresidency").innerHTML = `
         <span>${yearDif} <strong>Years</strong>, ${monthDif} <strong>Month</strong>, ${dayDif} <strong>Days</strong> </span>🎉
