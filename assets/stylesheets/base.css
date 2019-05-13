@@ -504,16 +504,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 1.5rem;
   }
   .avatar {
     position: relative;
-    max-width: 15rem;
+    max-width: 20rem;
     display: block;
     flex: 1 0 auto;
   }
   @media only screen and (max-width: 1199px) {
     .avatar-wrapper {
-      padding: 0;
+      padding: 1.5rem;
+    }
+    .avatar {
+      position: relative;
+      max-width: 15rem;
+      display: block;
+      flex: 1 0 auto;
     }
   }
   
@@ -699,7 +706,6 @@
   }
   li.details > input {
     float: left;
-    margin-left: -1.5em;
     width: 1.5em;
     display: inline-flex;
     align-items: center;
